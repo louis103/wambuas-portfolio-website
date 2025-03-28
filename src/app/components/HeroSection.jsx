@@ -26,6 +26,8 @@ const HeroSection = () => {
                 1000,
                 "Backend Engineer",
                 1000,
+                "Software Engineer",
+                1000,
                 "AI & ML Engineer",
                 1000,
                 "Technical Writer",
@@ -47,7 +49,7 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1liaCtmSg_kv6bIy8GAlG4pte3qdrJNEG/view?usp=sharing"
+              href="https://drive.google.com/file/d/1apLb8pPy9ajwr4CHlz8_er2sPGbKogKX/view?usp=sharing"
               target="_blank"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >

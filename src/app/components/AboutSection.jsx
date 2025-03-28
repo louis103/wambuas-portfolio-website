@@ -11,10 +11,10 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Node.js, React.js & Next.js</li>
         <li>Express</li>
-        <li>PostgreSQL & PostGIS</li>
-        <li>Python</li>
+        <li>PostgreSQL, MongoDB, PostGIS, Timescale DB and Astra DB</li>
+        <li>Python, GO, Rust</li>
         <li>JavaScript</li>
-        <li>Java SpringBoot</li>
+        <li>Java SpringBoot, Hibernate</li>
         <li>R</li>
         <li>Azure DevOps, Docker, Kubernetes</li>
         <li>Git, Github & Github Actions</li>
@@ -57,12 +57,15 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
+        <li>Certified by Kenya Red Cross as a Volunteer Mapper from 2022 to present.</li>
         <li>2023 Certified Oracle Data Science Professional</li>
         <li>Kaggle: Certified Geospatial Analyst</li>
         <li>ESRI MOOC Certification in Spatial Data Science: The New Frontier in Analytics</li>
         <li>ESRI MOOC Certification in Building Modern GeoApps</li>
         <li>Udemy Spatial Analysis and Geospatial Data Science with Python certificate</li>
-        <li>NVIDIA: Building Transformer based Natural Language Processing Applications</li>
+        <li>NVIDIA DLI Certification; Building Transformer based Natural Language Processing Applications</li>
+        <li>NVIDIA DLI Certification; Building Retrieval Augmented Generation (RAG) Agents with Large Language Models (LLMs).</li>
+        <li>NVIDIA DLI Certification; Disaster Risk Monitoring Using Satellite Imagery.</li>
       </ul>
     ),
   },
@@ -105,7 +108,7 @@ const AboutSection = () => {
               active={tab === "education"}
             >
               {" "}
-              Education{" "}
+              Education & Experience{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("certifications")}

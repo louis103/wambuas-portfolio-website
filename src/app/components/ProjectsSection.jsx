@@ -105,6 +105,24 @@ const projectsData = [
     gitUrl: "https://github.com/louis103/PowerlineMobileApplication.git",
     previewUrl: "https://powerline-monitoring-dashboard-ba1f4f6d707e.herokuapp.com/powerline/",
   },
+  {
+    id: 12,
+    title: "Movies Database",
+    description: "A simple web application built using Next.js and AppWrite Managed backend to allow users to search for movies, view movie details, and also see top five trending movies.",
+    image: "/images/projects/movie-website-logo.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/louis103/wambuas-portfolio-website.git",
+    previewUrl: "https://wambuas-movie-app.web.app/",
+  },
+  {
+    id: 13,
+    title: "Cancer Visualisation Web Map",
+    description: "A simple geospatial web mapping application used to visualize cancer cases in three counties in Kenya (Embu, Kericho and Mombasa).",
+    image: "/images/projects/nrf-cancer-webmap.png",
+    tag: ["All", "Web"],
+    gitUrl: "",
+    previewUrl: "https://nrf-cancer-distribution-web-map.vercel.app/",
+  },
 ];
 
 const ProjectsSection = () => {
