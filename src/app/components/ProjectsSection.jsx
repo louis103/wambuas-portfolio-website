@@ -109,7 +109,7 @@ const projectsData = [
     id: 12,
     title: "Movies Database",
     description: "A simple web application built using Next.js and AppWrite Managed backend to allow users to search for movies, view movie details, and also see top five trending movies.",
-    image: "/images/projects/movie-website-logo.png",
+    image: "/images/projects/movie-app-react.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/louis103/wambuas-portfolio-website.git",
     previewUrl: "https://wambuas-movie-app.web.app/",
@@ -122,6 +122,15 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "",
     previewUrl: "https://nrf-cancer-distribution-web-map.vercel.app/",
+  },
+  {
+    id: 14,
+    title: "Image Analysis Studio",
+    description: "A simple Gemini 2.0 Flash Image Analysis Studio app built using Python and Streamlit to analyse Images and return textual descriptions.",
+    image: "/images/projects/gemini-analysis-app.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/louis103/Image-Analysis-Studio-Using-Gemini-2.0-flash.git",
+    previewUrl: "https://gemini-image-analysis-studio.streamlit.app/",
   },
 ];
 
